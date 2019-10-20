@@ -31,7 +31,8 @@
     line-height: 25px;
     padding-left: 20px;
     padding-top: 15px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    overflow: hidden; }
   .form__input:focus {
     background-color: #00c4c4;
     border-left: 5px solid #355b82;
