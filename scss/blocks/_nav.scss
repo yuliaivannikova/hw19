@@ -82,8 +82,8 @@
             background-color: #ff6033;
             border: 0.4px solid #262626;
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 0;
+            left: 0;
             width: 100%;
             border: none;
         }
@@ -113,7 +113,14 @@
 
         }
 
+        /*.header__logo {
+            position: relative;
 
+
+        }
+
+        /*transition: 0.2s;
+        */
     }
 
 }
