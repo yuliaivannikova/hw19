@@ -1,0 +1,10 @@
+html {
+    font-size: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 5px;
+
+    }
+}

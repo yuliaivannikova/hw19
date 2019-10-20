@@ -1,0 +1,25 @@
+textarea {
+
+    &::placeholder {
+        color: white;
+    }
+
+
+    &::-webkit-input-placeholder {
+        color: white;
+    }
+
+    &::-moz-placeholder {
+        color: white;
+    }
+
+    /* Firefox 19+ */
+    &:-moz-placeholder {
+        color: white;
+    }
+
+    /* Firefox 18- */
+    &:-ms-input-placeholder {
+        color: white;
+    }
+}

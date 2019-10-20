@@ -1,0 +1,19 @@
+.header {
+  background-image: url(../img/img__1.png);
+  background-position: top center;
+  background-repeat: repeat-x;
+  width: 100%; }
+  .header__nav {
+    margin-top: -2px; }
+  .header__img {
+    margin-top: 739px;
+    margin-left: 173px;
+    margin-bottom: 67px; }
+  .header .header__logo {
+    position: relative;
+    z-index: 2;
+    width: 100%; }
+
+@media screen and (max-width: 991px) {
+  .header {
+    padding-bottom: 170px; } }

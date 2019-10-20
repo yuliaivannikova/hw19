@@ -1,0 +1,38 @@
+.text {
+  margin-top: 283px;
+  margin-left: -4px; }
+  .text__title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 47px;
+    margin-top: 231px; }
+  .text__lead {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 29px; }
+  .text__btn {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    color: white;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    border: none; }
+  .text__btn:hover {
+    background-color: rgba(255, 255, 255, 0.705);
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: #f72b3b; }
+
+@media screen and (max-width: 767px) {
+  .text__title {
+    font-size: 45px;
+    margin-top: 50px; }
+  .text__btn {
+    font-size: 17px; } }

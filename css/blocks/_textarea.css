@@ -1,0 +1,19 @@
+textarea {
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+  textarea::-webkit-input-placeholder {
+    color: white; }
+  textarea:-ms-input-placeholder {
+    color: white; }
+  textarea::-ms-input-placeholder {
+    color: white; }
+  textarea::placeholder {
+    color: white; }
+  textarea::-webkit-input-placeholder {
+    color: white; }
+  textarea::-moz-placeholder {
+    color: white; }
+  textarea:-moz-placeholder {
+    color: white; }
+  textarea:-ms-input-placeholder {
+    color: white; }

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #262626;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+  .footer__copyright {
+    color: #b9b9b9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 100%; }
+  .footer__author {
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%; }
+  @media screen and (max-width: 767px) {
+    .footer .footer__copyright {
+      font-size: 13px;
+      -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    .footer .footer__author {
+      font-size: 12px;
+      -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+    .footer .footer {
+      padding-bottom: 5px;
+      padding-top: 5px; } }
